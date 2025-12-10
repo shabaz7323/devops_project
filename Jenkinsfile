@@ -8,7 +8,7 @@ pipeline {
     }
     stages {
         stage('Checkout') {
-            steps { git branch: 'main', url: 'https://github.com/your/repo.git' }
+            steps { git branch: 'main', url: 'https://github.com/shabaz7323/devops_project.git' }
         }
         stage('SonarQube Analysis') {
             steps {
